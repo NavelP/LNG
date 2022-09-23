@@ -1,0 +1,64 @@
+Preface
+This book helps students to master the material of a standard US undergraduate
+first course in Linear Algebra.
+The material is standard in that the subjects covered are Gaussian reduction,
+vector spaces, linear maps, determinants, and eigenvalues and eigenvectors.
+Another standard is the book’s audience: sophomores or juniors, usually with
+a background of at least one semester of calculus. The help that it gives to
+students comes from taking a developmental approach — this book’s presentation
+emphasizes motivation and naturalness, using many examples.
+The developmental approach is what most recommends this book so I will
+elaborate. Courses at the beginning of a mathematics program focus less on
+theory and more on calculating. Later courses ask for mathematical maturity: the
+ability to follow different types of arguments, a familiarity with the themes that
+underlie many mathematical investigations such as elementary set and function
+facts, and a capacity for some independent reading and thinking. Some programs
+have a separate course devoted to developing maturity but in any case a Linear
+Algebra course is an ideal spot to work on this transition. It comes early in a
+program so that progress made here pays off later but it also comes late enough
+so that the classroom contains only students who are serious about mathematics.
+The material is accessible, coherent, and elegant. And, examples are plentiful.
+Helping readers with their transition requires taking the mathematics seri-
+ously. All of the results here are proved. On the other hand, we cannot assume
+that students have already arrived and so in contrast with more advanced
+texts this book is filled with illustrations of the theory, often quite detailed
+illustrations.
+Some texts that assume a not-yet sophisticated reader begin with matrix
+multiplication and determinants. Then, when vector spaces and linear maps
+finally appear and definitions and proofs start, the abrupt change brings the
+students to an abrupt stop. While this book begins with linear reduction, from
+the start we do more than compute. The first chapter includes proofs, such as
+the proof that linear reduction gives a correct and complete solution set. With
+that as motivation the second chapter does vector spaces over the reals. In the
+schedule below this happens at the start of the third week.
+A student progresses most in mathematics by doing exercises. The problem
+sets start with routine checks and range up to reasonably involved proofs. I
+have aimed to typically put two dozen in each set, thereby giving a selection. In
+particular there is a good number of the medium-difficult problems that stretch
+a learner, but not too far. At the high end, there are a few that are puzzles taken
+from various journals, competitions, or problems collections, which are marked
+with a ‘?’ (as part of the fun I have worked to keep the original wording).
+That is, as with the rest of the book, the exercises are aimed to both build
+an ability at, and help students experience the pleasure of, doing mathematics.
+Students should see how the ideas arise and should be able to picture themselves
+doing the same type of work.
+Applications. Applications and computing are interesting and vital aspects of the
+subject. Consequently, each chapter closes with a selection of topics in those
+areas. These give a reader a taste of the subject, discuss how Linear Algebra
+comes in, point to some further reading, and give a few exercises. They are
+brief enough that an instructor can do one in a day’s class or can assign them
+as projects for individuals or small groups. Whether they figure formally in a
+course or not, they help readers see for themselves that Linear Algebra is a tool
+Availability. This book is Free. See http://joshua.smcvt.edu/linearalgebra
+for the license details. That page also has the latest version, exercise answers,
+beamer slides, lab manual, additional material, and L A TEX source. This book is
+also available in hard copy from standard publishing sources, for very little cost.
+See the web page.
+Acknowledgments. A lesson of software development is that complex projects
+have bugs and need a process to fix them. I am grateful for reports from both
+instructors and students. I periodically issue revisions and acknowledge in the
+book’s repository all of the reports that I use. My current contact information
+is on the web page.
+I am grateful to Saint Michael’s College for supporting this project over many
+years, even before the idea of open educational resources became familiar.
+And, I cannot thank my wife Lynne enough for her unflagging encouragement.

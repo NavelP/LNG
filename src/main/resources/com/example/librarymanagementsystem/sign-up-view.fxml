@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.librarymanagementsystem.SignUpController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <AnchorPane prefHeight="616.0" prefWidth="863.0">
+         <children>
+            <Label alignment="TOP_CENTER" layoutX="272.0" layoutY="39.0" text="LIBRARY MANAGEMENT SYSTEM" textAlignment="CENTER" textFill="#078fff" underline="true">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="414.0" layoutY="116.0" text="Sign Up Page" />
+            <TextField fx:id="usernamevalue" layoutX="346.0" layoutY="170.0" promptText="Enter username..." />
+            <TextField fx:id="passwordvalue" layoutX="346.0" layoutY="226.0" promptText="Enter Password..." />
+            <Button id="signupbutton" fx:id="signinsubmitbuttom" layoutX="392.0" layoutY="339.0" mnemonicParsing="false" onAction="#SubmitSignInDetails" text="Sign Up" />
+            <TextField id="nationalid" fx:id="nationalidvalue" layoutX="346.0" layoutY="284.0" promptText="Enter national id..." />
+            <Text layoutX="346.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already Have an Account?" />
+            <Button fx:id="loginfromsignup" layoutX="526.0" layoutY="408.0" mnemonicParsing="false" text="Login In" textFill="#0066ff" />
+         </children>
+      </AnchorPane>
+   </children>
+
+</VBox>
